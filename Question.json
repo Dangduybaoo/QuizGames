@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "questionText": "What is 2 + 2?",
+      "possibleAnswers": ["3", "4", "5", "6"],
+      "correctAnswerIndex": 1,
+      "difficultyLevel": "easy",
+      "category": "Math"
+    },
+    {
+      "questionText": "Who is the current president of the United States?",
+      "possibleAnswers": ["Barack Obama", "Donald Trump", "Joe Biden", "George W. Bush"],
+      "correctAnswerIndex": 2,
+      "difficultyLevel": "easy",
+      "category": "Politics"
+    },
+    {
+      "questionText": "What is the chemical symbol for water?",
+      "possibleAnswers": ["H2O", "CO2", "O2", "NaCl"],
+      "correctAnswerIndex": 0,
+      "difficultyLevel": "easy",
+      "category": "Science"
+    },
+    {
+      "questionText": "Who painted the Sistine Chapel ceiling?",
+      "possibleAnswers": ["Leonardo da Vinci", "Vincent van Gogh", "Michelangelo", "Pablo Picasso"],
+      "correctAnswerIndex": 2,
+      "difficultyLevel": "easy",
+      "category": "Art"
+    },
+    {
+      "questionText": "What is the capital of Japan?",
+      "possibleAnswers": ["Beijing", "Tokyo", "Seoul", "Bangkok"],
+      "correctAnswerIndex": 1,
+      "difficultyLevel": "medium",
+      "category": "Geography"
+    },
+    {
+      "questionText": "Who wrote 'Romeo and Juliet'?",
+      "possibleAnswers": ["William Shakespeare", "Charles Dickens", "Jane Austen", "Mark Twain"],
+      "correctAnswerIndex": 0,
+      "difficultyLevel": "medium",
+      "category": "Literature"
+    },
+    {
+      "questionText": "What is the capital of Australia?",
+      "possibleAnswers": ["Sydney", "Melbourne", "Canberra", "Perth"],
+      "correctAnswerIndex": 2,
+      "difficultyLevel": "medium",
+      "category": "Geography"
+    },
+    {
+      "questionText": "What is the largest planet in our solar system?",
+      "possibleAnswers": ["Mars", "Jupiter", "Venus", "Saturn"],
+      "correctAnswerIndex": 1,
+      "difficultyLevel": "medium",
+      "category": "Science"
+    },
+    {
+      "questionText": "Who directed the movie 'Jurassic Park'?",
+      "possibleAnswers": ["Steven Spielberg", "Martin Scorsese", "Quentin Tarantino", "James Cameron"],
+      "correctAnswerIndex": 0,
+      "difficultyLevel": "hard",
+      "category": "Movies"
+    },
+    {
+      "questionText": "In which year did World War II end?",
+      "possibleAnswers": ["1943", "1945", "1950", "1939"],
+      "correctAnswerIndex": 1,
+      "difficultyLevel": "hard",
+      "category": "History"
+    },
+    {
+      "questionText": "Who discovered penicillin?",
+      "possibleAnswers": ["Albert Einstein", "Alexander Fleming", "Marie Curie", "Isaac Newton"],
+      "correctAnswerIndex": 1,
+      "difficultyLevel": "hard",
+      "category": "Science"
+    },
+    {
+      "questionText": "Who is known as the 'Father of Computers'?",
+      "possibleAnswers": ["Alan Turing", "Steve Jobs", "Charles Babbage", "Bill Gates"],
+      "correctAnswerIndex": 2,
+      "difficultyLevel": "hard",
+      "category": "Technology"
+    }
+  ]
+}
