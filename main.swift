@@ -17,10 +17,6 @@ struct Leaderboard: Codable {
     }
 }
 
-// Global variable for leaderboard
-var leaderboard = Leaderboard(leaderboard: [])
-let leaderboardFileURL = URL(fileURLWithPath: "Leaderboard.json")
-
 // Define the question model
 struct Question: Codable {
     let questionText: String
@@ -36,6 +32,10 @@ enum Difficulty: String, Codable {
     case medium
     case hard
 }
+
+// Global variable for leaderboard
+var leaderboard = Leaderboard(leaderboard: [])
+let leaderboardFileURL = URL(fileURLWithPath: "Leaderboard.json")
 
 // Function to read the leaderboard from JSON file
 func readLeaderboard(from fileURL: URL) -> Leaderboard? {
@@ -68,16 +68,6 @@ func getPlayerName() -> String {
         return getPlayerName()
     }
     return name
-}
-
-// Function to display the main menu
-func displayMainMenu() {
-    print("\n**********************")
-    print("*      Quiz Game     *")
-    print("*    1-Play Game     *")
-    print("*    2-Review Scores *")
-    print("*      3-Exit        *")
-    print("**********************")
 }
 
 // Function to read questions from JSON file
@@ -227,4 +217,14 @@ while !shouldQuit {
     } else {
         print("\nInvalid input. Please enter a number.")
     }
+}
+
+// Function to display the main menu
+func displayMainMenu() {
+    print("\n**********************")
+    print("*      Quiz Game     *")
+    print("*    1-Play Game     *")
+    print("*    2-Review Scores *")
+    print("*      3-Exit        *")
+    print("**********************")
 }
